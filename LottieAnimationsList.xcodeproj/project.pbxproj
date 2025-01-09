@@ -16,6 +16,7 @@
 		445B88132D3063D80068D470 /* Animation - 1736453106146.json in Resources */ = {isa = PBXBuildFile; fileRef = 445B88122D3063D80068D470 /* Animation - 1736453106146.json */; };
 		445B88152D3064400068D470 /* Animation - 1736453260698.json in Resources */ = {isa = PBXBuildFile; fileRef = 445B88142D3064400068D470 /* Animation - 1736453260698.json */; };
 		445B88172D3064630068D470 /* Animation - 1736453323949.json in Resources */ = {isa = PBXBuildFile; fileRef = 445B88162D3064630068D470 /* Animation - 1736453323949.json */; };
+		445B88192D3064F50068D470 /* FavouriteAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445B88182D3064F50068D470 /* FavouriteAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		445B88122D3063D80068D470 /* Animation - 1736453106146.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1736453106146.json"; sourceTree = "<group>"; };
 		445B88142D3064400068D470 /* Animation - 1736453260698.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1736453260698.json"; sourceTree = "<group>"; };
 		445B88162D3064630068D470 /* Animation - 1736453323949.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "Animation - 1736453323949.json"; sourceTree = "<group>"; };
+		445B88182D3064F50068D470 /* FavouriteAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		445B880A2D30612D0068D470 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				445B88182D3064F50068D470 /* FavouriteAnimation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445B88192D3064F50068D470 /* FavouriteAnimation.swift in Sources */,
 				445B88082D3061200068D470 /* AnimationsListView.swift in Sources */,
 				445B88092D3061200068D470 /* LottieAnimationsListApp.swift in Sources */,
 				445B88102D3062C10068D470 /* LottieView.swift in Sources */,
